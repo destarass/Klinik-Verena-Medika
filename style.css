@@ -1781,11 +1781,13 @@ hr.invis1 {
 
 
 .pricingTable{
+    width: 600px;
+    height:auto;
     background: #fff;
     border-radius: 10px;
     text-align: center;
     overflow: hidden;
-    position: relative;
+    margin: auto;
     transition: all 0.3s ease 0s;
 }
 .pricingTable:hover{ box-shadow: 0 0 5px rgba(0,0,0,0.8) inset, 0 0 10px rgba(0,0,0,0.8); }
@@ -2619,9 +2621,15 @@ select.mobile-device {
 
 /* codingan tambahan classes  */
 .img-icon{
-    width: 100px;
+    width: 70px;
     height: auto;
 }
 .space{
     margin-bottom: 5px !important;
+}
+.img-struktur-organisasi, .img-struktur-organisasi-2{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
